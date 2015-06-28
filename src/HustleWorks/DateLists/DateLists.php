@@ -65,7 +65,7 @@ class DateLists
         
         $days = [];
         for ($i=1;$i<=31;$i++) {
-            $days[] = $i;
+            $days[$i] = $i;
         }
         
         return $days;
@@ -88,7 +88,7 @@ class DateLists
         $max = date('Y')-$offset;
         $min = date('Y')-$count;
         for ($i=$max;$i>=$min;$i--) {
-            $years[] = $i;
+            $years[$i] = $i;
         }
 
         return $years;
