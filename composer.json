@@ -1,0 +1,21 @@
+{
+    "name": "hustleworks/datelists",
+    "description": "Provides data arrays for months, days and years.",
+    "keywords": ["date"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bill Condo",
+            "email": "billcondo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HustleWorks\\DateLists\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
